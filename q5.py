@@ -1,0 +1,14 @@
+num=12
+cont=2
+quant=0
+val=None
+while(num>=cont):
+    if(num%cont==0):
+        quant+=1
+        if(val==None):
+            val=cont
+    cont+=1
+if(quant==1):
+    print(1)
+elif(quant>1):
+    print(val)
